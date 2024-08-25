@@ -37,6 +37,9 @@
         .bg-grey-light:focus {
             background: #f0f0f0;
         }
+        a.logo{
+            color: hsl(210, 11%, 15%);
+        }
 
         @media (min-width: 1024px) {
             body {
@@ -154,7 +157,7 @@
 
     <!-- logo name -->
     <div class="position-absolute top-0 start-0 p-3">
-        <a href="https://www.youtube.com/channel/UCRv_tLsJllG18IhDkpNzh_w" class="text-decoration-none fw-bold fs-5">Webland.</a>
+        <a href="" class="logo text-decoration-none fw-bold fs-5">Batique.</a>
     </div>
 
     <!-- Login Section -->

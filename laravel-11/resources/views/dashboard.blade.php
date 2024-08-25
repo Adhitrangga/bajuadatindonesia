@@ -19,7 +19,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="{{ route('dashboard') }}">Home</a>
+                        <a class="nav-link active" aria-current="page" href="{{ route('home') }}">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="{{ route('products.index') }}">Products</a>
@@ -40,7 +40,7 @@
                 <img src="{{ Storage::url('products/'.$product->image) }}" alt="{{ $product->title }}">
                 <div class="product-info">
                     <h5>{{ $product->title }}</h5>
-                    <p>{{ number_format($product->price, 2) }} €</p>
+                    <p>{{ number_format($product->price, 2) }}K</p>
                     <!-- <p>{{ Str::limit($product->description, 100) }}</p> -->
                 </div>
             </div>
